@@ -23,9 +23,11 @@
 $$
 \dot{x}\sin\left(\theta+\pi/3\right)-\dot{y}\cos\left(\theta+\pi/3\right)-\dot{\theta}L-\dot{\psi}_1r=0
 $$
+
 $$
 \dot{y}\cos\theta-\dot{x}\sin\theta-\dot{\theta}L-\dot{\psi}_2r=0
 $$
+
 $$
 \dot{x}\sin\left(\theta-\pi/3\right)-\dot{y}\cos\left(\theta-\pi/3\right)-\dot{\theta}L-\dot{\psi}_3r=0
 $$
@@ -35,8 +37,9 @@ $$
 $$
 \ddot{q}_1=A_1^{-1}b-KX^{-1}\left(F_2+K^\top M_{11}A_1^{-1}b-K^\top\left(F_1+\tau_f\right)\right)
 $$
+
 $$
-\ddot{q}_2=X^{-1}\left(F_2+K^\top M_{11}A_1^{-1}b-K^\top\left(F_1+\tau_f\right)\right)\end{aligned}
+\ddot{q}_2=X^{-1}\left(F_2+K^\top M_{11}A_1^{-1}b-K^\top\left(F_1+\tau_f\right)\right)
 $$
 
 （具体每个变量的定义参考文献 [2]II.B 部分）
