@@ -1,0 +1,41 @@
+# ROS2 编译输出忽略文件
+
+# 忽略构建文件夹
+build/
+install/
+log/
+
+# 忽略某些特定的构建输出
+**/build/
+**/install/
+**/log/
+**/devel/
+
+# 忽略由Colcon生成的特定隐藏文件和目录
+.colcon/
+.colcon_cache/
+
+# 忽略Python字节码文件
+**/*.pyc
+**/*.pyo
+**/__pycache__/
+
+# 忽略编辑器和IDE的设置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略临时文件
+tmp/
+
+# 忽略备份文件
+*.bak
+
+# 忽略自动生成的标记文件
+tags

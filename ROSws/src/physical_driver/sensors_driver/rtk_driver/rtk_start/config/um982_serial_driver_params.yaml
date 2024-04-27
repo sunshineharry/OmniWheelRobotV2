@@ -1,0 +1,4 @@
+parm_getter_for_um982_serial_driver:
+  ros__parameters:
+    serial_port: "/dev/rtk"
+    baud_rate: 921600
