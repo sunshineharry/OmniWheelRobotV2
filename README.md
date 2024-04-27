@@ -21,13 +21,22 @@
 ## 运动学模型
 
 $$
-\dot{x}\sin\left(\theta+\pi/3\right)-\dot{y}\cos\left(\theta+\pi/3\right)-\dot{\theta}L-\dot{\psi}_1r=0\\\dot{y}\cos\theta-\dot{x}\sin\theta-\dot{\theta}L-\dot{\psi}_2r=0\\\dot{x}\sin\left(\theta-\pi/3\right)-\dot{y}\cos\left(\theta-\pi/3\right)-\dot{\theta}L-\dot{\psi}_3r=0
+\dot{x}\sin\left(\theta+\pi/3\right)-\dot{y}\cos\left(\theta+\pi/3\right)-\dot{\theta}L-\dot{\psi}_1r=0
+$$
+$$
+\dot{y}\cos\theta-\dot{x}\sin\theta-\dot{\theta}L-\dot{\psi}_2r=0
+$$
+$$
+\dot{x}\sin\left(\theta-\pi/3\right)-\dot{y}\cos\left(\theta-\pi/3\right)-\dot{\theta}L-\dot{\psi}_3r=0
 $$
 
 ## 动力学模型
 
 $$
-\begin{aligned}&\ddot{q}_1=A_1^{-1}b-KX^{-1}\left(F_2+K^\top M_{11}A_1^{-1}b-K^\top\left(F_1+\tau_f\right)\right)\\&\ddot{q}_2=X^{-1}\left(F_2+K^\top M_{11}A_1^{-1}b-K^\top\left(F_1+\tau_f\right)\right)\end{aligned}
+\ddot{q}_1=A_1^{-1}b-KX^{-1}\left(F_2+K^\top M_{11}A_1^{-1}b-K^\top\left(F_1+\tau_f\right)\right)
+$$
+$$
+\ddot{q}_2=X^{-1}\left(F_2+K^\top M_{11}A_1^{-1}b-K^\top\left(F_1+\tau_f\right)\right)\end{aligned}
 $$
 
 （具体每个变量的定义参考文献 [2]II.B 部分）
@@ -35,6 +44,7 @@ $$
 ## 参考文献
 
 [1] 赵睿英, 余进, 冯艳丽, 等. 机械系统动力学 Rosenberg 嵌入法的扩展与解耦: 一阶约束与二阶约束的整合[J]. 机械工程学报, 2023, 59(9): 101-115.
+
 [2] Hankun Jiang, et. al. "Trajectory Tracking Control of Three Wheeled Omnidirectional Robot in Narrow Spaces with Uncertainty", IEEE Transactions on Intelligent Vehicles, Under Review.
 
 # 机械建模和硬件选型
@@ -55,11 +65,11 @@ $$
 
   > 参考手册：
   >
-  >  [MF伺服电机用户手册.pdf](assets\motor\MF伺服电机用户手册.pdf) ， [产品手册.pdf](assets\motor\产品手册.pdf) ， [485指令手册.pdf](assets\motor\485指令手册.pdf) 
+  >  [MF伺服电机用户手册.pdf](assets/motor/MF伺服电机用户手册.pdf) ， [产品手册.pdf](assets/motor/产品手册.pdf) ， [485指令手册.pdf](assets/motor/485指令手册.pdf)
   >
   > 上位机系统：
   >
-  >  [LK_motor_tool_V2_35_.exe](assets\motor\LK_motor_tool_V2_35_.exe) 
+  >  [LK_motor_tool_V2_35_.exe](assets/motor/LK_motor_tool_V2_35_.exe)
 
 - 陀螺仪：维特智能WHT101CT
 
