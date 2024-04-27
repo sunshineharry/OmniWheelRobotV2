@@ -88,4 +88,4 @@ $$
 
 # 核心Topic和Service
 
-# 使用教程
+![ros_node.drawio](./assets/ros_node.drawio.png)
